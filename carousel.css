@@ -1,0 +1,222 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+  /*  For glowing the text for one second
+  .carousel-caption h1 {
+    color: #fff;
+    text-shadow: 0 0 10px #82CD47, 0 0 20px #82CD47, 0 0 30px #82CD47, 0 0 40px #82CD47, 0 0 50px #82CD47, 0 0 60px #82CD47, 0 0 70px #82CD47;
+    animation: glow 1s ease-in-out forwards;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px 82CD47#, 0 0 20px #82CD47, 0 0 30px #82CD47, 0 0 40px #82CD47, 0 0 50px #82CD47, 0 0 60px #82CD47, 0 0 70px #82CD47;
+    }
+    100% {
+      text-shadow: none;
+    }
+  } */
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+    height: 95vh;
+     width: 98.91vw;
+     object-fit: cover;
+  
+  }
+  
+  .carousel-caption h1 ,p {
+    text-shadow: -1px -1px 0 #282A3A, 1px -1px 0 #282A3A, -1px 1px 0 #282A3A, 1px 1px 0 #282A3A;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    /* height: 32rem; */
+    height: 100%;
+     width: 100%;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-2 {
+    margin-bottom: 1.5rem;
+    text-align: right;
+    position:relative;
+    left: 02px;
+   
+    margin-left: 1150px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .marketing .col-lg-3 {
+    margin-bottom: 1.5rem;
+    text-align: right;
+    position:absolute;
+    top:1200px;
+    left: 02px;
+    margin-left: 0%;
+    margin-left: 1080px;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+    
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+     
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+     
+    }
+  }
+  
+  
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  
+  }
+  
+  .verticle-menu{
+  width: 200px;
+  height: 250px;
+  overflow-y: auto;
+  /* float: right; */
+  margin-left: 20px;
+  
+  }
+  
+  .verticle-menu a{
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  
+  }
+  
+  .verticle-menu a:hover{
+    background-color: #eee;
+  }
+  
+  .verticle-menu a.active{
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  
+  .container2 {
+    display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      float:right;
+      margin-top: 30px;
+      margin-right: 40px;
+  }
+  
+  .container3 {
+    display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      float:right;
+      width:73%;
+    
+      margin-right: 7px;
+  
+  }
+  
+  .basic{
+    float: left;
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  
+  #basicinfo{
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #eee;
+  }
+  
+  .wrapper {
+    position:absolute;
+    top: 755px;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(151, 255, 151);
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  
